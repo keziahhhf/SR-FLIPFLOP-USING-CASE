@@ -67,6 +67,7 @@ module EX06(q, q_bar, s,r, clk, reset);//SR Flip Flop Behavioral Level using ‘
   assign q_bar = ~q;
 endmodule
 
+
 **RTL LOGIC FOR FLIPFLOPS**
 
 
