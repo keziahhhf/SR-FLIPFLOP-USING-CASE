@@ -46,7 +46,7 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 
 **PROGRAM**
 
-
+```
 module EX06(q, q_bar, s,r, clk, reset);//SR Flip Flop Behavioral Level using ‘case’ 
   input s,r,clk, reset;
   output reg q;
@@ -67,7 +67,7 @@ module EX06(q, q_bar, s,r, clk, reset);//SR Flip Flop Behavioral Level using ‘
   assign q_bar = ~q;
 endmodule
 
-
+```
 **RTL LOGIC FOR FLIPFLOPS**
 
 
